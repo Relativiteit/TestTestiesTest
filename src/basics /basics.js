@@ -1,7 +1,12 @@
 function sum(a, b) {
     const result = a + b
-    console.log(result)
     return a + b
 }
-sum(1, 2)
-module.exports = sum;
+
+if ('') {
+    console.log('this is truthy')
+} else {
+    console.log('this is falsy')
+}
+
+module.exports = sum
